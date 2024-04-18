@@ -1,0 +1,777 @@
+/* Все начальные настройки стилей для всего сайта */
+body{margin: 0;
+font-family: "Open Sans","Sans serif";}
+/* внутренние стили для 3-х карточек */
+
+/*настройки стилей кнопки 1*/
+.button{
+	background-color: #FF7400;
+	padding: 14px 50px;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: 700;
+	line-height: 16px;
+	font-family: "Open Sans","Sans serif";
+	transition: background-color 0.3s linear, color 0.3s linear
+}
+.button:hover{
+	background-color:#8c4b16;
+	color: #cbcbcb;
+}
+/*настройки стилей кнопки 1*/
+
+
+
+/*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*/
+
+
+/*ЦЕЛЫЙ БЛОК №1*/
+.header-line{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* position: fixed; */
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+/*ЦЕЛЫЙ БЛОК №1*/
+
+/*навигация*/
+.nav-item{
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 16px;
+	margin-right: 25px;
+	transition: color 0.3s linear;
+	
+}
+.nav-item:hover{color: red;}
+.cart{
+	position: relative;
+	border-right: 2px solid #FFFFFF;
+	padding-right: 25px;
+	height: 50px;
+}
+.cart-img{
+	position: absolute;
+	top: 20px;
+	right: 7px;
+
+}
+.phone-number{
+	display: flex;
+	align-items: center;
+}
+
+.num{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 700;
+}
+.phone-text{
+	color: #FFF;
+	font-size: 14px;
+}
+
+.media-menu{
+	display: none;
+}
+
+.block{display: block;}
+
+.burger-slide{
+	position: absolute;
+	
+}
+
+.disp{display: none;}
+
+button{
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+/*навигация*/
+
+
+@media(max-width:1185px){
+	.media-menu{display: block;}
+	.nav{display: none;}
+	.cart{display: none;}
+	.phone{display: none;}
+	.btn{display: none;}
+	
+}
+@media(max-width:700px){
+	.heder-dawn{text-align: center;}
+}
+
+
+
+/*ЦЕЛЫЙ БЛОК №1.1*/
+.header {background-image: url(bg.png);
+display: flex;
+height: 100vh;
+justify-content: left;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;}
+/*ЦЕЛЫЙ БЛОК №1.1*/
+
+.heder-dawn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px;
+	width: 900px;
+	margin-bottom: 100px;
+
+}
+
+.heder-text1{
+font-size: 50px;
+font-weight: 400;
+color: #D67E35;
+font-family: "Cookie", cursive;
+
+}
+
+.heder-text2{
+	font-family: "Cookie", cursive;
+font-size: 80px;
+font-weight: 400;
+color: #D67E35;
+margin-bottom: 10px;
+}
+
+.heder-text3{
+	font-family: "Cookie", cursive;
+font-size: 18px;
+font-weight: 400;
+color: #FFF;
+margin-bottom: 30px;
+}
+
+
+/*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*//*ЦЕЛЫЙ БЛОК №1*/
+
+
+/*ЦЕЛЫЙ БЛОК №2*//*ЦЕЛЫЙ БЛОК №2*//*ЦЕЛЫЙ БЛОК №2*//*ЦЕЛЫЙ БЛОК №2*//*ЦЕЛЫЙ БЛОК №2*/
+
+
+/*ЦЕЛЫЙ БЛОК №2*/
+.cards{
+display: flex;
+justify-content: center;
+margin-top: -107px;
+flex-wrap: wrap;
+}
+/*ЦЕЛЫЙ БЛОК №2*/
+
+
+/* общие стили для каждой из 3-х карточек */
+.card{
+	width:349px;
+	height: 328px;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	margin-right: 31px;
+	margin-left: 31px;
+	background-color: #FFF;
+	
+}
+.card-info{
+	padding: 31px;
+}
+/* общие стили для каждой из 3-х карточек */
+
+/* внутренние стили для 3-х карточек */
+.card-imge{
+display: flex;
+justify-content: center;
+}
+.card-title{
+display: flex;
+justify-content: center;
+	font-weight: 400;
+	font-size: 26px;
+	font-family: "Tinos", serif;
+	color: #2C2C2C;
+	margin-bottom: 20px;
+}
+.word1{
+	color: #D67E35;
+	margin-left: 8px;
+}
+.card-desk{
+text-align: center;
+	font-weight: 400;
+	font-size: 26px;
+	font-family: "Tinos", serif;
+	color:#656363;
+}
+/* внутренние стили для 3-х карточек */
+
+/*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*/
+
+/*ЦЕЛЫЙ БЛОК №3*/
+.history{
+display: flex;
+justify-content: space-around; /* меняеться на center когда активируешь картинки */
+align-items: center;
+	margin-top: 166px;	
+flex-wrap: wrap;	
+}
+/*ЦЕЛЫЙ БЛОК №3*/
+
+
+/* весь блок стилей для текстовой информации по истории */
+
+.history-blok1{
+width: auto;	
+}
+.history-title{
+	font-family: "Tinos", serif;
+	font-weight: 400;
+	font-size: 54px;
+text-align: center;
+
+}
+.word4{
+	color: #D67E35;
+}
+
+.history-desk{
+text-align: center;
+	font-family: "Open Sans","Sans serif";
+	font-weight: 400;
+	font-size: 16px;
+	color: #656363;
+	margin-top: 21px;
+	width: 444px;
+}
+
+.number1{
+text-align: center;
+	font-weight: 400;
+	font-size: 40px;
+	font-family: "Open Sans","Sans serif";
+	color: #BC9060;
+	margin-right: 60px;
+}
+.word5{
+display: block;
+	font-weight: 400;
+	font-size: 20px;
+	font-family: "Open Sans","Sans serif";
+	margin-right: 60px;
+	text-align: center;
+
+}
+.history-caunt{
+display: flex;
+justify-content: center;
+text-align: center;
+	margin-top: 40px;
+	width: 444px;
+	margin-left:25px;
+}
+/* весь блок стилей для текстовой информации по истории */
+
+
+
+
+/*общая позиция для всех картинок*/
+	.history-img{
+/* position: relative; */
+	width: auto;
+	height: 498px;
+	display: flex;
+	justify-content: center;
+padding: 50px;
+	/* margin-left: 140px; */
+	}
+/*общая позиция для всех картинок*/
+
+
+/*позиция для каждой отдельной картинки*/	
+/* }
+.img1{
+	left: 10px;
+	top:46px;
+position: absolute;
+	z-index: 998;
+}
+.img2{
+	left: 355px;
+	top:179px;
+position: absolute;
+	z-index: 998;
+}
+.img3{
+	left: 195px;
+	top:-30px;
+position: absolute;
+	z-index: 997;
+
+}
+.img4{
+
+	top:30px;
+	left: 315px;
+position: absolute;
+	z-index: 0;
+} */
+/*позиция для каждой отдельной картинки*/
+
+/*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*//*ЦЕЛЫЙ БЛОК №3*/
+
+
+
+/*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*/
+
+/*ЦЕЛЫЙ БЛОК №4*/
+.bg2{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+background-image: url(png/bg2.png);
+background-repeat: no-repeat;
+background-size: cover;
+	margin-top: 166px;
+	padding: 10px;
+}
+/*ЦЕЛЫЙ БЛОК №4*/
+
+
+/*1-й ГЛАВНЫЙ БЛОК в котооом 2 блока с текстом*/
+.bg2-text{
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+flex-wrap: wrap;
+	margin-top: 85px;
+	margin-bottom: 85px;
+}
+/*1-й ГЛАВНЫЙ БЛОК в котооом 2 блока с текстом*/
+
+/*2 блока с текстом*/
+.bg2-text1{	
+	font-family: "Tinos", serif;
+	font-size: 52px;
+	font-weight: 400;
+	color: #D67E34;
+}
+
+.bg2-text2{
+	font-family: "Open Sans","Sans serif";
+	font-size: 24px;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+/*2 блока с текстом*/
+
+/*2-й ГЛАВНЫЙ БЛОК в котооом КНОПКА*/
+.bg2-button-container{
+display: flex;
+justify-content: center;
+text-align: center;
+	width: 50%;
+}
+/*2-й ГЛАВНЫЙ БЛОК в котооом КНОПКА*/
+
+
+
+.bg2-button1{
+	text-decoration: none;
+	font-weight: 700;
+	line-height: 19px;
+	font-family: "Open Sans","Sans serif";
+	color: #FFF
+
+}
+
+/*настройки стилей кнопки*/
+
+/*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*//*ЦЕЛЫЙ БЛОК №4*/
+
+
+
+
+
+/*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*/
+
+/*ЦЕЛЫЙ БЛОК №5*/
+.menu1{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+/*ЦЕЛЫЙ БЛОК №5*/
+
+
+
+/*1-й ГЛАВНЫЙ БЛОК в котооом только заголовок*/
+.menu-text{
+display: flex;
+justify-content: center;
+	margin-top: 139px;
+	margin-bottom: 139px;
+	font-size: 54px;
+	font-weight: 400;
+	font-family: "Tinos", serif;
+}
+.word6{
+	color: #D67E34;
+	margin-left: 15px;
+}
+/*1-й ГЛАВНЫЙ БЛОК в котооом только заголовок*/
+
+
+
+/*2-й ГЛАВНЫЙ БЛОК в котооом 2 блока картинок*/
+.menu-pictures{
+display: flex;
+justify-content:center;
+flex-wrap: wrap;
+}
+/*2-й ГЛАВНЫЙ БЛОК в котооом 2 блока картинок*/
+
+
+
+/*пераая большая картинка*/
+.menu-pictures1{
+	display: flex;
+margin: 10px;	
+}
+/*пераая большая картинка*/
+
+
+
+/*блок из маленьких картинок*/
+.menu-pictures2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+	margin-left: 30px;
+	margin: 10px;
+}
+.pictures2-1{
+display: flex;
+justify-content: center;
+align-items: center;
+	font-family: "Tinos", serif;
+	font-size: 26px;
+	font-weight: 400;	
+}
+
+.menu-pictures-price1{
+	font-family: "Tinos", serif;
+	font-size: 26px;
+	font-weight: 400;
+}
+/*блок из маленьких картинок*/
+
+/*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*//*ЦЕЛЫЙ БЛОК №5*/
+
+
+
+
+
+
+
+
+/*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*/
+/*ЦЕЛЫЙ БЛОК №6*/
+.menu2{
+	background-image: url(png/bg-menu2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 139px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/*ЦЕЛЫЙ БЛОК №6*/
+
+
+
+
+/*1-й ГЛАВНЫЙ БЛОК в котооом только заголовок*/
+.menu2-text{
+	display: flex;
+	text-align: center;
+	font-size: 54px;
+	font-weight: 400;
+	font-family: "Tinos", serif;
+	color: #FFF;
+	margin-top: 80px;
+}
+/*1-й ГЛАВНЫЙ БЛОК в котооом только заголовок*/
+
+
+
+
+/*2-й ГЛАВНЫЙ БЛОК состоящий из 3-х карточек*/
+.menu2-cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 139px;
+	flex-wrap: wrap;
+	margin-bottom: 260px;
+}
+/*2-й ГЛАВНЫЙ БЛОК состоящий из 3-х карточек*/
+
+
+
+
+/*стиль для каждой отдельной карточки*/
+.cards-burger{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #FFF;
+	padding-left: 62px;
+	padding-right: 62px;
+	padding-top: 80px;
+	padding-bottom: 31px;
+	margin: 31px;
+}
+/*стиль для каждой отдельной карточки*/
+
+
+
+
+/*стили для текста внутри белой рамки*/
+.cards-text1{
+	font-family: "Tinos", serif;
+	font-size: 26px;
+	font-weight: 400;
+	margin-top: 30px;	
+}
+.cards-text2{
+	font-weight: 400;
+	line-height: 16px;
+	font-family: "Open Sans","Sans serif";
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 31px;
+}
+/*стили для текста внутри белой рамки*/
+
+
+
+
+/*стили для кнопки внутри белой рамки*/
+.cards-bottom{
+	background-color: #FF7400;
+	padding: 14px 64px;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: 700;
+	font-family: "Open Sans","Sans serif";
+	transition: background-color 0.3s linear, color 0.3s linear
+}
+.cards-bottom:hover{
+	background-color: #9b4e0f;
+	color: #cbcbcb;
+}
+/*стили для кнопки внутри белой рамки*/
+
+
+
+
+/* стили для картинки бургера внутри белой рамки*/
+/* .img-burger{
+	position: relative;
+}
+.img-burger2{
+	position: absolute;
+	top: 128px;
+	left: 136px;
+}
+.price-420{
+	position: absolute;
+	bottom: 33px;
+	right: 20px;
+	font-family: "Cookie", cursive;
+	font-family: Cookie;
+	font-size: 30px;
+	font-weight: 400;
+	color: #FFF;
+} */
+/* стили для картинки бургера внутри белой рамки*/
+
+/*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*//*ЦЕЛЫЙ БЛОК №6*/
+
+
+/*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*/
+
+/*ЦЕЛЫЙ БЛОК №7*/
+.coment{
+background: url(png/coment-bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+/*ЦЕЛЫЙ БЛОК №7*/
+
+
+/*текст коментария*/
+.comment-text{
+	font-family: "Open Sans","Sans serif";
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+text-align: center;
+	margin-top: 139px;
+	margin-bottom: 25px;
+}
+/*текст коментария*/
+
+/* кто посетил */
+.comment-text2{
+	font-family: "Open Sans","Sans serif";
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+.comment-photo{
+display: flex;
+justify-content: center;
+margin: 15px;
+}
+.comment-name{
+	font-family: "Open Sans","Sans serif";
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 120px;
+margin-top: 15px;
+text-align: center;
+}
+/* кто посетил */
+
+/*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*//*ЦЕЛЫЙ БЛОК №7*/
+
+
+/*ЦЕЛЫЙ БЛОК №8 и 9*//*ЦЕЛЫЙ БЛОК №8 и 9*//*ЦЕЛЫЙ БЛОК №8 и 9*//*ЦЕЛЫЙ БЛОК №8 и 9*/
+
+/*ЦЕЛЫЙ БЛОК №8 и 9*/
+
+.gallery-dishes{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.gallery-cook{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+/*ЦЕЛЫЙ БЛОК №8 и 9*/
+
+/*Текст заголовка для блоков №8 и 9*/
+.gallery-text{
+	font-family: "Tinos", serif;
+	font-size: 54px;
+	font-weight: 400;
+	margin-bottom: 139px;
+}
+
+.gallery-text > span{
+	color: #D67E35;
+}
+/*Текст заголовка для блоков №8 и 9*/
+
+
+.galery-pictures{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+	margin-bottom: 139px;
+}
+
+
+/* стиль для отдельных фото поваров и блюд */
+.galery-pictures1{
+display: flex;
+flex-wrap: wrap;
+	margin: 10px;
+}
+/* стиль для отдельных фото поваров и блюд */
+
+/* стиль для фото поваров и блюд состоящий из 3-х фото */
+.galery-pictures3{
+display: flex;
+flex-wrap: wrap;
+}
+/* стиль для фото поваров и блюд состоящий из 3-х фото */
+
+/*ЦЕЛЫЙ БЛОК №8 и 9*//*ЦЕЛЫЙ БЛОК №8 и 9*//*ЦЕЛЫЙ БЛОК №8 и 9*//*ЦЕЛЫЙ БЛОК №8 и 9*/
+
+.footer{
+background-color: #000000;
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.footer-text{
+	font-family: "Cookie", cursive;
+	font-size: 54px;
+	font-weight: 700;
+margin: 100px;
+color: #FFF;
+text-align: center;
+}
+
+
+@media (max-width:1500px){
+
+.galery-pictures3{
+	display:flex;
+	justify-content: center;
+}
+
+.history-img{
+	margin-top: 50px;
+	margin-left: -150px;
+}
+.history-blok1{
+	margin-left: 0;
+}
+.card{
+	margin-bottom: 31px;
+}
+.cards{
+	margin-top: -60px;
+}
+	
+}
